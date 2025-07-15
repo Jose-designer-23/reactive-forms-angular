@@ -73,9 +73,12 @@ An advanced demonstration of cascading selections in dropdown lists:
 
 ### Frontend:
 
-* [**Angular**](https://angular.io/) - Robust framework for building the user interface.
+* **[Angular](https://angular.io/) (v19.2.14, with Signals):** The core framework for building user interfaces, leveraging powerful built-in and custom pipes and reactive state management via Signals.
 * [**Angular Reactive Forms**](https://angular.io/guide/reactive-forms) - The core module for creating these forms.
-* [**RxJS**](https://rxjs.dev/) - Used for managing data streams, operator manipulation (like `debounceTime` for searches, or `switchMap` for chaining requests), and asynchronous logic.
+* **[TypeScript](https://www.typescriptlang.org/) (~5.7.2):** The base programming language that adds static typing.
+* **[Tailwind CSS](https://tailwindcss.com/) (v3.4.17):** A utility CSS framework for fast, responsive design.
+* **[DaisyUI](https://daisyui.com/) (v4.12.24):** A UI component library for Tailwind CSS.
+* **[RxJS](https://rxjs.dev/) (~7.8.0):** For managing asynchronous data streams and reactive programming within Angular.
 * **External Countries API:** (If applicable, mention the specific API, e.g., REST Countries API) to retrieve continent, country, and border information.
 
 ---
