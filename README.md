@@ -73,9 +73,12 @@ Una demostración avanzada del encadenamiento de selecciones en listas desplegab
 
 ### Frontend:
 
-* [**Angular**](https://angular.io/) - Framework robusto para la construcción de la interfaz de usuario.
+* **[Angular](https://angular.io/) (v19.2.14, con Signals):** El framework principal para construir la interfaz de usuario, aprovechando sus potentes pipes integrados y personalizados, junto con la gestión de estado reactivo mediante Signals.
 * [**Angular Reactive Forms**](https://angular.io/guide/reactive-forms) - El módulo central para la creación de estos formularios.
-* [**RxJS**](https://rxjs.dev/) - Utilizado para la gestión de flujos de datos, la manipulación de operadores (como `debounceTime` para búsquedas, o `switchMap` para encadenar peticiones) y la lógica asíncrona.
+* **[TypeScript](https://www.typescriptlang.org/) (~5.7.2):** El lenguaje de programación base que añade tipado estático.
+* **[Tailwind CSS](https://tailwindcss.com/) (v3.4.17):** Un framework CSS de utilidad para un diseño rápido y responsivo.
+* **[DaisyUI](https://daisyui.com/) (v4.12.24):** Una biblioteca de componentes UI para Tailwind CSS.
+* **[RxJS](https://rxjs.dev/) (~7.8.0):** Para la gestión de flujos de datos asíncronos y programación reactiva dentro de Angular.
 * **API Externa de Países:** (Si aplica, menciona la API específica, ej. REST Countries API) para obtener la información de continentes, países y fronteras.
 
 ---
